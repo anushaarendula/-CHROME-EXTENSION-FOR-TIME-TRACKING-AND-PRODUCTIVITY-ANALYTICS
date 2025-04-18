@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productivity Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <h1>Productivity Tracker</h1>
+
+        <div class="tracker">
+            <label for="activity">Current Activity:</label>
+            <select id="activity">
+                <option value="Work">Work</option>
+                <option value="Study">Study</option>
+                <option value="Break">Break</option>
+                <option value="Leisure">Leisure</option>
+            </select>
+
+            <button id="startBtn">Start</button>
+            <button id="stopBtn" disabled>Stop</button>
+        </div>
+
+        <div class="summary">
+            <h2>Time Summary</h2>
+            <ul id="summaryList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
