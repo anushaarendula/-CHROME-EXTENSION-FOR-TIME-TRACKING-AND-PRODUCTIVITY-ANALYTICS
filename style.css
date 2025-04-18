@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.main {
+    background-image: url("https://th.bing.com/th/id/OIP.yfRsNhZQqRRkgql0-jL31QAAAA?w=320&h=480&rs=1&pid=ImgDetMain");
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    font-family: "breeserif";
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.tracker {
+    background: gray;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    border-radius: 10px;
+}
+
+select,
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.summary {
+    background-image: url("https://cdn.wallpapersafari.com/33/52/Fqd597.jpg");
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
